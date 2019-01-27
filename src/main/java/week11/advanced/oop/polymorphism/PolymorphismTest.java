@@ -2,17 +2,15 @@ package week11.advanced.oop.polymorphism;
 
 public class PolymorphismTest {
 
-    public static final String ANIMAL_TYPE = "cat";
-
     public static void main(String[] args) {
         Animal animal = new Animal();
         animal.sound();
 
-        if (ANIMAL_TYPE.equals("dog")) {
+        if (AnimalType.dog.equals("dog")) {
             animal = new Dog();
         }
 
-        if (ANIMAL_TYPE.equals("cat")) {
+        if (AnimalType.cat.equals("cat")) {
             animal = new Cat();
         }
 
