@@ -1,4 +1,4 @@
-package week11.advanced;
+package week11.advanced.oop;
 
 public class EncapsulationExercise {
 
