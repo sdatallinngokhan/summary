@@ -1,4 +1,4 @@
-package week11.advanced.oop;
+package week11.advanced.oop.inheritance;
 
 public class InheritanceAbstractImpl extends InheritanceAbstract {
 
