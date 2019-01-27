@@ -20,9 +20,15 @@ public class DataStructures {
         Set<String> nameSet = new HashSet<>();
         nameSet.add("Gokhan");
         nameSet.add("Jack");
+
         for (String name : nameSet) {
-            System.out.println("Coming from name set : " + name);
+            System.out.println("Coming from name set with traditional for loop: " + name);
         }
+
+        // same as above
+        nameSet.stream().forEach(name-> {
+            System.out.println("Coming from name set with java8 for loop: " +name);
+        });
 
         Map<Integer, String> nameMap = new HashMap<>();
         nameMap.put(76, "Gokhan");
