@@ -3,6 +3,12 @@ package week11.advanced.oop;
 public class InheritanceSub extends InheritanceSuper {
 
     public String getName() {
+        super.getSurname();
+        this.getSurname();
+
+        super.printHello();
+        this.printHello();
+
         return name;
     }
 

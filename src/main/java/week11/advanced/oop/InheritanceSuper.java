@@ -7,4 +7,8 @@ public class InheritanceSuper {
     public String getSurname() {
         return "Polat";
     }
+
+    public void printHello(){
+        System.out.println("Hello");
+    }
 }
